@@ -3,16 +3,16 @@
         <vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="true">
             <vmap:AdTagURI templateType="vast3">
                 <![CDATA[
-                https://pubads.g.doubleclick.net/gampad/ads?iu=/21743724729/Brightcove_Preroll&description_url=http%3A%2F%2Fnarasi.tv&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=300x250|640x480&unviewed_position_start=1
+                https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&vad_type=linear&vpos=preroll&pod=1&ppos=1&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=7096&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&url=https://developers.google.com/interactive-media-ads/docs/sdks/html5/tags&video_doc_id=short_tencue&cmsid=496&kfa=0&tfcd=0
                 ]]>
             </vmap:AdTagURI>
         </vmap:AdSource>
     </vmap:AdBreak>
-    <vmap:AdBreak repeatAfter="00:00:10.000" breakType="linear" breakId="midroll-1">
+    <vmap:AdBreak timeOffset="00:00:10.000" breakType="linear" breakId="midroll-1" repeatAfter="00:00:10">
         <vmap:AdSource id="midroll-1-ad-1" allowMultipleAds="false" followRedirects="true">
             <vmap:AdTagURI templateType="vast3">
                 <![CDATA[
-                https://tpc.googlesyndication.com/ima3vpaid?vad_format=linear&correlator=&adtagurl=https%3A%2F%2Fpubads.g.doubleclick.net%2Fgampad%2Fads%3Fsz%3D300x250%7C640x480%26description_url%3Dhttp%253A%252F%252Fnarasi.tv%26vpos%3Dmidroll%26videoad_start_delay%3D10%26iu%3D%2F21743724729%2FBrightcove_Preroll%26env%3Dvp%26gdfp_req%3D1%26output%3Dvast%26tfcd%3D0%26npa%3D0%26vpmute%3D0%26vpa%3D0%26type%3Djs%26unviewed_position_start%3D1
+                https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=10000&vad_type=linear&vpos=midroll&pod=2&mridx=1&ppos=1&min_ad_duration=0&max_ad_duration=30000&vrid=7096&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpostlongpod&url=https://developers.google.com/interactive-media-ads/docs/sdks/html5/tags&video_doc_id=short_tencue&cmsid=496&kfa=0&tfcd=0
                 ]]>
             </vmap:AdTagURI>
         </vmap:AdSource>
