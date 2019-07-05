@@ -8,7 +8,7 @@
             </vmap:AdTagURI>
         </vmap:AdSource>
     </vmap:AdBreak>
-    <vmap:AdBreak timeOffset="00:03:00.000" breakType="linear" breakId="midroll-1">
+    <vmap:AdBreak timeOffset="00:00:00.000" breakType="linear" breakId="midroll-1">
         <vmap:AdSource id="midroll-1-ad-1" allowMultipleAds="false" followRedirects="true">
             <vmap:AdTagURI templateType="vast3">
                 <![CDATA[
@@ -17,7 +17,7 @@
             </vmap:AdTagURI>
         </vmap:AdSource>
     </vmap:AdBreak>
-    <vmap:AdBreak timeOffset="00:06:00.000" breakType="linear" breakId="midroll-2">
+    <vmap:AdBreak timeOffset="00:00:00.000" breakType="linear" breakId="midroll-2">
         <vmap:AdSource id="midroll-2-ad-1" allowMultipleAds="false" followRedirects="true">
             <vmap:AdTagURI templateType="vast3">
                  <![CDATA[
@@ -26,7 +26,7 @@
             </vmap:AdTagURI>
         </vmap:AdSource>
     </vmap:AdBreak>
-    <vmap:AdBreak timeOffset="00:09:00.000" breakType="linear" breakId="midroll-3">
+    <vmap:AdBreak timeOffset="00:00:00.000" breakType="linear" breakId="midroll-3">
         <vmap:AdSource id="midroll-3-ad-1" allowMultipleAds="false" followRedirects="true">
             <vmap:AdTagURI templateType="vast3">
                  <![CDATA[
